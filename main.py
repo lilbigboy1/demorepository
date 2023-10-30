@@ -31,6 +31,7 @@ Please enter an option: 3
 def menu():
     print('Menu\n-------------\n1. Encode\n2. Decode\n3. Quit')
 
+#Alejandro Fluitt
 def Encode(password):
     new_password = ''
     num = 0
