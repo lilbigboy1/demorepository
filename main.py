@@ -40,7 +40,7 @@ def Encode(password):
         new_password += str(num)[-1]
     return new_password
 
-#Connor Patchen
+#Connor Patchon
 def Decode(password):
     old_password = ''
     num = 0
