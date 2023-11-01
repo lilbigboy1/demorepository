@@ -32,7 +32,7 @@ def menu():
     print('Menu\n-------------\n1. Encode\n2. Decode\n3. Quit')
 
 #Alejandro Fluitt
-def Encode(password):
+def encode(password):
     new_password = ''
     num = 0
     for i in password:
@@ -40,8 +40,8 @@ def Encode(password):
         new_password += str(num)[-1]
     return new_password
 
-#Connor
-def Decode(password):
+#Connor Patchen
+def decode(password):
     old_password = ''
     num = 0
     for i in password:
@@ -57,10 +57,10 @@ if __name__ == '__main__':
         if user_input == '1':
             password = input('Please enter your password to encode: ')
             print('Your password has been encoded and stored!')
-            password = Encode(password)
+            password = encode(password)
 
         elif user_input == '2':
-            print(f'The encoded password is {password}, and the original password is {Decode(password)}')
+            print(f'The encoded password is {password}, and the original password is {decode(password)}')
         elif user_input == '3':
             break
 
