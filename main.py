@@ -42,12 +42,12 @@ def encode(password):
 
 #Connor Patchen
 def decode(password):
-    old_password = ''
+    Old_Password = ''
     num = 0
     for i in password:
         num = int(i) + 7
-        old_password += str(num)[-1]
-    return old_password
+        Old_Password += str(num)[-1]
+    return Old_Password
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
